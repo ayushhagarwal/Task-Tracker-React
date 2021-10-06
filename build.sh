@@ -1,5 +1,7 @@
 #!/bin/bash
 # it builds project container
+# sed -i 's/\r$//'
+
 tag='dev'
 project='task-tracker'
 start=`date +%s`
