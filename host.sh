@@ -5,7 +5,7 @@ sudo ./scripts/dockerinstall.sh
 
 #build the container
 sed -i 's/\r$//' ./scripts/buil.sh
-chmod 7777 ./scripts/buil.sh 
+chmod 7777 ./scripts/build.sh 
 sudo ./scripts/build.sh
 
 #deploy the container
