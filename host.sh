@@ -1,14 +1,14 @@
 # Install Docker 
-sed -i 's/\r$//' ./scripts/dockerinstall.sh
-chmod 7777 ./scripts/dockerinstall.sh
-sudo ./scripts/dockerinstall.sh
+sed -i 's/\r$//' dockerinstall.sh
+chmod 7777 dockerinstall.sh
+sudo ./dockerinstall.sh
 
 #build the container
-sed -i 's/\r$//' ./scripts/build.sh
-chmod 7777 ./scripts/build.sh 
-sudo ./scripts/build.sh
+sed -i 's/\r$//' build.sh
+chmod 7777 build.sh 
+sudo ./build.sh
 
 #deploy the container
-sed -i 's/\r$//' ./scripts/deploy.sh
-chmod 7777 ./scripts/deploy.sh
-sudo ./scripts/deploy.sh
+sed -i 's/\r$//' deploy.sh
+chmod 7777 deploy.sh
+sudo ./deploy.sh
