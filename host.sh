@@ -4,7 +4,7 @@ chmod 7777 ./scripts/dockerinstall.sh
 sudo ./scripts/dockerinstall.sh
 
 #build the container
-sed -i 's/\r$//' ./scripts/buil.sh
+sed -i 's/\r$//' ./scripts/build.sh
 chmod 7777 ./scripts/build.sh 
 sudo ./scripts/build.sh
 
